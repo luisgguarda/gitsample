@@ -1,6 +1,8 @@
-const button = document.getElementById("changeBtn");
-const greeting = document.getElementById("greeting");
-
-button.addEventListener("click", () => {
-  greeting.textContent = "You clicked the button!";
-});
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
